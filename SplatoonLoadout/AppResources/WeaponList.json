@@ -1,7 +1,7 @@
 [
   {
     "Name": "Jet Squelcher",
-    "IconUrl": "https://raw.githubusercontent.com/AsyncException/SplatoonLoadout/main/SplatoonLoadout/AppResources/Images/s3_badge_jet_squelcher_4.png",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_jet_squelcher_4.png",
     "Category": 2,
     "Trait": [
       3
@@ -9,7 +9,7 @@
   },
   {
     "Name": "N-Zap 85",
-    "IconUrl": "https://raw.githubusercontent.com/AsyncException/SplatoonLoadout/main/SplatoonLoadout/AppResources/Images/s3_badge_nzap_85_4.png",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_nzap_85_4.png",
     "Category": 1,
     "Trait": [
       0,
@@ -19,7 +19,7 @@
   },
   {
     "Name": "Tri-Slosher Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/AsyncException/SplatoonLoadout/main/SplatoonLoadout/AppResources/Images/s3_badge_tri-slosher_nouveau_4.png",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_tri-slosher_nouveau_4.png",
     "Category": 1,
     "Trait": [
       0,
@@ -28,7 +28,7 @@
   },
   {
     "Name": "Splat Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/AsyncException/SplatoonLoadout/main/SplatoonLoadout/AppResources/Images/s3_badge_splat_dualies_4.webp",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_splat_dualies_4.webp",
     "Category": 0,
     "Trait": [
       1,

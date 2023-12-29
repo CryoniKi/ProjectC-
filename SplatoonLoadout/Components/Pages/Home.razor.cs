@@ -65,7 +65,7 @@ public partial class Home
 
     private async Task<List<WeaponModel>> GetWeapons()
     {
-        string url = "https://raw.githubusercontent.com/AsyncException/SplatoonLoadout/main/SplatoonLoadout/AppResources/WeaponList.json";
+        string url = "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/WeaponList.json";
         var returnValue = await _httpClient.GetAsync(url) ?? throw new Exception("No internet bozo");
 
         var results = await returnValue.Content.ReadFromJsonAsync<List<WeaponModel>>();
