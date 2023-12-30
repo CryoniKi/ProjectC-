@@ -44,32 +44,50 @@ if (AnsiConsole.Confirm("Do you want to create a Desktop shortcut?", true)) {
 
 async Task Download(StatusContext ctx)
 {
-    HttpResponseMessage response = await httpClient.GetAsync(config.GetGithubLink());
-    using (var fs = new FileStream(config.GetCacheLocation(), FileMode.OpenOrCreate)) {
-        await response.Content.CopyToAsync(fs);
-    }
+    try {
+        HttpResponseMessage response = await httpClient.GetAsync(config.GetGithubLink());
+        response.EnsureSuccessStatusCode();
+        using (var fs = new FileStream(config.GetCacheLocation(), FileMode.OpenOrCreate)) {
+            await response.Content.CopyToAsync(fs);
+        }
 
-    AnsiConsole.WriteLine("[LOG] Downloaded");
+        AnsiConsole.WriteLine("[LOG] Downloaded");
+    }
+    catch(Exception ex) {
+        WriteErrorAndDie(ex);
+    }
+    
 }
 
 void Unpack(StatusContext ctx)
 {
-    ctx.Status("Unpacking files");
-    var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
+    try {
+        ctx.Status("Unpacking files");
+        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
 
-    if (!Directory.Exists(programPath)) {
-        Directory.CreateDirectory(programPath);
+        if (!Directory.Exists(programPath)) {
+            Directory.CreateDirectory(programPath);
+        }
+
+        string[] files = Directory.GetFiles(programPath);
+        string[] directories = Directory.GetDirectories(programPath);
+        if (files.Length > 0 || directories.Length > 0) {
+            AnsiConsole.WriteLine("[LOG] Removing old files");
+            DirectoryInfo di = new DirectoryInfo(programPath);
+            foreach (FileInfo file in di.GetFiles()) { file.Delete(); }
+            foreach (DirectoryInfo dir in di.GetDirectories()) { dir.Delete(true); }
+        }
+
+        ZipFile.ExtractToDirectory(config.GetCacheLocation(), programPath);
+        AnsiConsole.WriteLine("[LOG] Unpacked");
     }
-
-    string[] files = Directory.GetFiles(programPath); 
-    string[] directories = Directory.GetDirectories(programPath);
-    if (files.Length > 0 || directories.Length > 0) {
-        AnsiConsole.WriteLine("[LOG] Removing old files");
-        DirectoryInfo di = new DirectoryInfo(programPath);
-        foreach (FileInfo file in di.GetFiles()) { file.Delete(); }
-        foreach (DirectoryInfo dir in di.GetDirectories()) { dir.Delete(true); }
+    catch(Exception ex) {
+        WriteErrorAndDie(ex);
     }
+}
 
-    ZipFile.ExtractToDirectory(config.GetCacheLocation(), programPath);
-    AnsiConsole.WriteLine("[LOG] Unpacked");
+void WriteErrorAndDie(Exception ex)
+{
+    AnsiConsole.WriteException(ex, ExceptionFormats.ShortenPaths | ExceptionFormats.ShortenTypes | ExceptionFormats.ShortenMethods | ExceptionFormats.ShowLinks);
+    Environment.Exit(1);
 }
