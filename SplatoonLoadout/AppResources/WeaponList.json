@@ -102,8 +102,8 @@
     ]
   },
   {
-    "Name": "Ballpoint Splatling Nouveu",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling_Nouveu.png",
+    "Name": "Ballpoint Splatling Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling_Nouveau.png",
     "Category": 6,
     "Trait": [
       3,
@@ -557,8 +557,8 @@
     ]
   },
   {
-    "Name": "Nautlus 47",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Nautlus7.png",
+    "Name": "Nautilus 47",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Nautilus7.png",
     "Category": 5,
     "Trait": [
       3
@@ -782,7 +782,7 @@
   },
   {
     "Name": "Splat Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/ImagesSplat_Brella.png",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Brella.png",
     "Category": 2,
     "Trait": [
       5

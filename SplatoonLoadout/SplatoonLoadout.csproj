@@ -54,39 +54,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Remove="AppResources\Images\s3_badge_jet_squelcher_4.png" />
-      <None Remove="AppResources\Images\s3_badge_nzap_85_4.png" />
-      <None Remove="AppResources\Images\s3_badge_splat_dualies_4.webp" />
-      <None Remove="AppResources\Images\s3_badge_tri-slosher_nouveau_4.png" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <MauiImage Include="Resources\Raw\s3_badge_jet_squelcher_4.png" />
-      <MauiImage Include="Resources\Raw\s3_badge_nzap_85_4.png" />
-      <MauiImage Include="Resources\Raw\s3_badge_splat_dualies_4.webp" />
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
         <PackageReference Include="MudBlazor" Version="6.11.2" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <MauiAsset Include="AppResources\Images\s3_badge_jet_squelcher_4.png">
-        <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
-      </MauiAsset>
-      <MauiAsset Include="AppResources\Images\s3_badge_nzap_85_4.png">
-        <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
-      </MauiAsset>
-      <MauiAsset Include="AppResources\Images\s3_badge_splat_dualies_4.webp">
-        <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
-      </MauiAsset>
-      <MauiAsset Include="AppResources\Images\s3_badge_tri-slosher_nouveau_4.png">
-        <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
-      </MauiAsset>
     </ItemGroup>
 
 </Project>
