@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 namespace SplatoonLoadout.Components.Pages;
 public partial class Home
 {
+    private const string WEAPON_URL = "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/WeaponList.json";
+
     private readonly HttpClient _httpClient = new();
     private readonly WeaponModel?[] _selected = new WeaponModel?[4];
     private List<WeaponModel> weapons = [];
@@ -28,7 +30,7 @@ public partial class Home
         for (var i = 0; i < _selected.Length; i++) {
             if (_selected[i] is null) {
                 _selected[i] = weapon;
-                _unallowedTraits = CalculateAllowedTags();
+                _unallowedTraits = CalculateAllowedTags().ToList();
                 StateHasChanged();
                 return;
             }
@@ -41,34 +43,40 @@ public partial class Home
     private void TrySetInactive(int index)
     {
         _selected[index] = null;
-        _unallowedTraits = CalculateAllowedTags();
+        _unallowedTraits = CalculateAllowedTags().ToList();
     }
 
-    private List<Trait> CalculateAllowedTags()
+    private IEnumerable<Trait> CalculateAllowedTags()
     {
-        int support = 0, pushingSpecial = 0, frontline = 0;
+        int[] traitCounts = new int[Enum.GetValues(typeof(Trait)).Length];
 
-        foreach(var weapon in _selected) {
-            if(weapon is null) { continue; }
-            if (weapon.Trait.Contains(Trait.Support)) { support++; }
-            if (weapon.Trait.Contains(Trait.PushingSpecial)) { pushingSpecial++; }
-            if (weapon.Trait.Contains(Trait.Frontline)) { frontline++; }
-        }
+        foreach (var weapon in _selected.Where(e => e != null))
+            foreach (var trait in weapon!.Trait)
+                traitCounts[(int)trait]++;
 
-        List<Trait> unallowedTraits = [ ];
-        if(support >= 1) { unallowedTraits.Add(Trait.Support); }
-        if(pushingSpecial >= 3) { unallowedTraits.Add(Trait.PushingSpecial); }
-        if(frontline >= 2) { unallowedTraits.Add(Trait.Frontline); }
+        if (traitCounts[(int)Trait.Support] >= 1)
+            yield return Trait.Support;
 
-        return unallowedTraits;
+        if (traitCounts[(int)Trait.PushingSpecial] >= 3)
+            yield return Trait.PushingSpecial;
+
+        if (traitCounts[(int)Trait.Frontline] >= 2)
+            yield return Trait.Frontline;
     }
 
     private async Task<List<WeaponModel>> GetWeapons()
     {
-        string url = "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/WeaponList.json";
-        var returnValue = await _httpClient.GetAsync(url) ?? throw new Exception("No internet bozo");
+        try {
+            HttpResponseMessage responseMessage = await _httpClient.GetAsync(WEAPON_URL);
 
-        var results = await returnValue.Content.ReadFromJsonAsync<List<WeaponModel>>();
-        return results;
+            //return an empty list on null reference
+            List<WeaponModel> weaponList = (await responseMessage.Content.ReadFromJsonAsync<List<WeaponModel>>()) ?? [];
+            return weaponList;
+        }
+        catch {
+            //return empty on error in the chain.
+            //TODO: add a more robust error checking.
+            return [];
+        }
     }
 }

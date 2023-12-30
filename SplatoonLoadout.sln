@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplatoonLoadout", "SplatoonLoadout\SplatoonLoadout.csproj", "{CC36A806-3609-4EBF-8082-B5D34BA27570}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Project C-", "Project C-\Project C-.vdproj", "{FD5831DC-6CD2-4FB3-8892-C86BCE40B9DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "Installer\Installer.csproj", "{C740A365-1BD0-4101-9490-092A47056728}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +19,10 @@ Global
 		{CC36A806-3609-4EBF-8082-B5D34BA27570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC36A806-3609-4EBF-8082-B5D34BA27570}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC36A806-3609-4EBF-8082-B5D34BA27570}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{FD5831DC-6CD2-4FB3-8892-C86BCE40B9DB}.Debug|Any CPU.ActiveCfg = Debug
-		{FD5831DC-6CD2-4FB3-8892-C86BCE40B9DB}.Release|Any CPU.ActiveCfg = Release
+		{C740A365-1BD0-4101-9490-092A47056728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C740A365-1BD0-4101-9490-092A47056728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C740A365-1BD0-4101-9490-092A47056728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C740A365-1BD0-4101-9490-092A47056728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
