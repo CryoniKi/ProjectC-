@@ -858,7 +858,9 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Jr..png",
     "Category": 1,
     "Trait": [
-      
+      2,
+      4,
+      5
     ]
   },
   {
