@@ -1,4 +1,955 @@
+[
+  {
+    "Name": "Jet Squelcher",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_jet_squelcher_4.png",
+    "Category": 2,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "N-Zap 85",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_nzap_85_4.png",
+    "Category": 1,
+    "Trait": [
+      0,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Tri-Slosher Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/s3_badge_tri-slosher_nouveau_4.png",
+    "Category": 1,
+    "Trait": [
+      0,
+      5
+    ]
+  },
+  {
+    "Name": "Splat Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_splat_dualies_4.webp",
+    "Category": 0,
+    "Trait": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": ".52 Gal",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_.52_Gal_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": ".96 Gal",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_.96_Gal_4.webp",
+    "Category": 3,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": ".96 Gal Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_.96_Gal_Deco_4.webp",
+    "Category": 3,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Aerospray MG",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Aerospray_MG_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
 
+    ]
+  },
+  {
+    "Name": "Aerospray RG",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Aerospray_RG_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Annaki Splattershot Nova",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Annaki_Splattershot_Nova_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Ballpoint Splatling",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Ballpoint_Splatling_4.webp",
+    "Category": 6,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Ballpoint Splatling Nouveu",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Ballpoint_Splatling_Nouveu_4.webp",
+    "Category": 6,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Bamboozler 14 Mk I",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Bamboozler_14_Mk_I_4.webp",
+    "Category": 5,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Big Swig Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Big_Swig_Roller_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Big Swig Roller Express",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Big_Swig_Roller_Express_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Blaster_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Bloblobber",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Bloblobber_4.webp",
+    "Category": 4,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Bloblobber Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Bloblobber_Deco_4.webp",
+    "Category": 4,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Carbon Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Carbon_Roller_4.webp",
+    "Category": 1,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Carbon Roller Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Carbon_Roller_Deco_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      5
+    ]
+  },
+  {
+    "Name": "Clash Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Clash_Blaster_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Clash Blaster Neo",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Clash_Blaster_Neo_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Classic Squiffer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Classic_Squiffer_4.webp",
+    "Category": 5,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Custom Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Custom_Blaster_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Custom Dualie Squelchers",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Custom_Dualie_Squelchers_4.webp",
+    "Category": 3,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Custom Goo Tuber",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Custom_Goo_Tuber_4.webp",
+    "Category": 5,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Custom Jet Squelcher",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Custom_Jet_Squelcher_4.webp",
+    "Category": 3,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Custom Splattershot Jr.",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Custom_Splattershot_Jr._4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Dapple Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dapple_Dualies_4.webp",
+    "Category": 1,
+    "Trait": [
+      0,
+      5
+    ]
+  },
+  {
+    "Name": "Dapple Dualies Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dapple_Dualies_Nouveau_4.webp",
+    "Category": 1,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Dark Tetra Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dark_Tetra_Dualies_4.webp",
+    "Category": 1,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Dread Wringer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dread_Wringer_4.webp",
+    "Category": 4,
+    "Trait": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Dualie Squelchers",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dualie_Squelchers_4.webp",
+    "Category": 3,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Dynamo Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Dynamo_Roller_4.webp",
+    "Category": 4,
+    "Trait": [
+      0,
+      3
+    ]
+  },
+  {
+    "Name": "E-liter 4K",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_E-liter_4K_4.webp",
+    "Category": 7,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "E-Liter 4K Scope",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_E-Liter_4K_Scope_4.webp",
+    "Category": 7,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Enperry Splat Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Enperry_Splat_Dualies_4.webp",
+    "Category": 1,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Explosher",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Explosher_4.webp",
+    "Category": 6,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Flingza Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Flingza_Roller_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Foil Squeezer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Foil_Squeezer_4.webp",
+    "Category": 3,
+    "Trait": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Forge Splattershot Pro",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Forge_Splattershot_Pro_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Glooga Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Glooga_Dualies_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Gold Dynamo Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Gold_Dynamo_Roller_4.webp",
+    "Category": 4,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Goo Tuber",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Goo_Tuber_4.webp",
+    "Category": 5,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "H-3 Nozzlenose",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_H-3_Nozzlenose_4.webp",
+    "Category": 3,
+    "Trait": [
+      0,
+      3
+    ]
+  },
+  {
+    "Name": "H-3 Nozzlenose D",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_H-3_Nozzlenose_D_4.webp",
+    "Category": 3,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Heavy Edit Splatling",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Heavy_Edit_Splatling_4.webp",
+    "Category": 5,
+    "Trait": [
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Heavy Splatling",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Heavy_Splatling_4.webp",
+    "Category": 6,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Heavy Splatling Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Heavy_Splatling Deco_4.webp",
+    "Category": 6,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Hero Shot Replica",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Hero_Shot_Replica_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Hydra Splatling",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Hydra_Splatling_4.webp",
+    "Category": 6,
+    "Trait": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Inkbrush",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Inkbrush_4.webp",
+    "Category": 1,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Inkbrush Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Inkbrush_Nouveau_4.webp",
+    "Category": 1,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Inkline Tri-Stringer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Inkline_Tri-Stringer_4.webp",
+    "Category": 5,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Krak-On Splat Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Krak-On_Splat_Roller_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "L-3 Nozzlenose",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_L-3_Nozzlenose_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "L-3 Nozzlenose D",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_L-3_Nozzlenose_D_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Light Tetra Dualies",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Light_Tetra_Dualies_4.webp",
+    "Category": 1,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Luna Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Luna_Blaster_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Luna Blaster Neo",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Luna_Blaster_Neo_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Mini Splatling",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Mini_Splatling_4.webp",
+    "Category": 3,
+    "Trait": [
+      4
+    ]
+  },
+  {
+    "Name": "N-Zap 89'",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_N-Zap_89'_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Nautlus 47",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Nautlus_47_4.webp",
+    "Category": 5,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Neo Splash-o-matic",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Neo_Splash-o-matic_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Neo Splatana Stamper",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Neo_Splatana Stamper_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Neo Sploosh-o-matic",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Neo_Sploosh-o-matic_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+
+    ]
+  },
+  {
+    "Name": "Octobrush",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Octobrush_4.webp",
+    "Category": 1,
+    "Trait": [
+      2,
+      5
+    ]
+  },
+  {
+    "Name": "Octobrush Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Octobrush_Nouveau_4.webp",
+    "Category": 1,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Painbrush",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Painbrush_4.webp",
+    "Category": 4,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Painbrush Nouveau",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Painbrush_Nouveau_4.webp",
+    "Category": 4,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Range Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Range_Blaster_4.webp",
+    "Category": 4,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Rapid Blaster",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Rapid_Blaster_4.webp",
+    "Category": 4,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Rapid Blaster Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Rapid_Blaster_Deco_4.webp",
+    "Category": 4,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Rapid Blaster Pro",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Rapid_Blaster_Pro_4.webp",
+    "Category": 5,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Rapid Blaster Pro Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Rapid_Blaster_Pro_Deco_4.webp",
+    "Category": 5,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "REEF-LUX 450",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_REEF-LUX_450_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "REEF-LUX 450 Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_REEF-LUX_450 Deco_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "S-BLAST '91",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_S-BLAST_'91_4.webp",
+    "Category": 4,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "S-BLAST '92",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_S-BLAST_'92_4.webp",
+    "Category": 4,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Slosher",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Slosher_4.webp",
+    "Category": 4,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Slosher Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Slosher_Deco_4.webp",
+    "Category": 4,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Sloshing Machine",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Sloshing_Machine_4.webp",
+    "Category": 4,
+    "Trait": [
+      1,
+      4
+    ]
+  },
+  {
+    "Name": "Sloshing Machine Neo",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Sloshing_Machine_Neo_4.webp",
+    "Category": 4,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Snipewriter 5B",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Snipewriter_5B_4.webp",
+    "Category": 7,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Snipewriter 5H",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Snipewriter_5H_4.webp",
+    "Category": 7,
+    "Trait": [
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Sorella Brella",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Sorella_Brella_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      3,
+      5
+    ]
+  },
+  {
+    "Name": "Splash-o-matic",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splash-o-matic_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Splat Brella",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splat_Brella_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Splat Charger",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splat_Charger_4.webp",
+    "Category": 6,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Splat Roller",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splat_Roller_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
+    ]
+  },
+  {
+    "Name": "Splatana Stamper",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splatana_Stamper_4.webp",
+    "Category": 4,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Splatana Wiper",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splatana_Wiper_4.webp",
+    "Category": 1,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Splatana Wiper Deco",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splatana_Wiper_Deco_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Splatterscope",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splatterscope_4.webp",
+    "Category": 6,
+    "Trait": [
+      2,
+      3
+    ]
+  },
+  {
+    "Name": "Splattershot",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splattershot_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Splattershot Jr.",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splattershot_Jr._4.webp",
+    "Category": 2,
+    "Trait": [
+
+    ]
+  },
+  {
+    "Name": "Splattershot Nova",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splattershot_Nova_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Splattershot Pro",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Splattershot_Pro_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Sploosh-o-matic",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Sploosh-o-matic_4.webp",
+    "Category": 2,
+    "Trait": [
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Squeezer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Squeezer_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Tenta Brella",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Tenta_Brella_4.webp",
+    "Category": 3,
+    "Trait": [
+      3
+    ]
+  },
+  {
+    "Name": "Tenta Sorella Brella",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Tenta_Sorella_Brella_4.webp",
+    "Category": 3,
+    "Trait": [
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "Tentatek Splattershot",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Tentatek_Splattershot_4.webp",
+    "Category": 2,
+    "Trait": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Tri-Slosher",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Tri-Slosher_4.webp",
+    "Category": 2,
+    "Trait": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Name": "Tri-Stringer",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Tri-Stringer_4.webp",
+    "Category": 5,
+    "Trait": [
+      3,
+      4
+    ]
+  },
+  {
+    "Name": "Undercover Brella",
+    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources//Images/s3_badge_Undercover_Brella_4.webp",
+    "Category": 2,
+    "Trait": [
+      5
     ]
   },
   {
@@ -31,7 +982,6 @@
     "Category": 3,
     "Trait": [
       3
-
     ]
   }
 ]
