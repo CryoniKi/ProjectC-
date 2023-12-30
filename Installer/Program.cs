@@ -19,27 +19,38 @@ await AnsiConsole.Status()
     });
 
 if (AnsiConsole.Confirm("Do you want to create a Start Menu shortcut?", true)) {
-    IShellLink link = (IShellLink)new ShellLink();
-    link.SetDescription("Splatoon Loadout");
-    var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
-    link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
-    link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
+    try {
+        IShellLink link = (IShellLink)new ShellLink();
+        link.SetDescription("Splatoon Loadout");
+        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
+        link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
+        link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
 
-    IPersistFile file = (IPersistFile)link;
-    string startMenuPath = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);
-    file.Save(Path.Combine(startMenuPath, "Splatoon Loadout.lnk"), false);
+        IPersistFile file = (IPersistFile)link;
+        string startMenuPath = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);
+        file.Save(Path.Combine(startMenuPath, "Splatoon Loadout.lnk"), false);
+    }
+    catch (Exception ex) {
+        WriteErrorAndDie(ex);
+    }
 }
 
 if (AnsiConsole.Confirm("Do you want to create a Desktop shortcut?", true)) {
-    IShellLink link = (IShellLink)new ShellLink();
-    link.SetDescription("Splatoon Loadout");
-    var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
-    link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
-    link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
+    try {
+        IShellLink link = (IShellLink)new ShellLink();
+        link.SetDescription("Splatoon Loadout");
+        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
+        link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
+        link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
 
-    IPersistFile file = (IPersistFile)link;
-    string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-    file.Save(Path.Combine(desktopPath, "Splatoon Loadout.lnk"), false);
+        IPersistFile file = (IPersistFile)link;
+        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+        file.Save(Path.Combine(desktopPath, "Splatoon Loadout.lnk"), false);
+    }
+    catch (Exception ex) {
+        WriteErrorAndDie(ex);
+    }
+    
 }
 
 async Task Download(StatusContext ctx)
