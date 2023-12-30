@@ -8,6 +8,7 @@ var config = new Config();
 var httpClient = new HttpClient();
 
 string tempPath = Path.Combine(Path.GetTempPath(), "SplatoonLoadoutInstaller");
+string tempFile = Path.Combine(tempPath, config.GetFileName());
 if (!Directory.Exists(tempPath)) {
     Directory.CreateDirectory(tempPath);
 }
@@ -67,7 +68,7 @@ async Task Download(StatusContext ctx)
     try {
         HttpResponseMessage response = await httpClient.GetAsync(config.GetGithubLink());
         response.EnsureSuccessStatusCode();
-        using (var fs = new FileStream(config.GetCacheLocation(), FileMode.OpenOrCreate)) {
+        using (var fs = new FileStream(tempFile, FileMode.OpenOrCreate)) {
             await response.Content.CopyToAsync(fs);
         }
 
@@ -98,7 +99,7 @@ void Unpack(StatusContext ctx)
             foreach (DirectoryInfo dir in di.GetDirectories()) { dir.Delete(true); }
         }
 
-        ZipFile.ExtractToDirectory(tempPath, programPath);
+        ZipFile.ExtractToDirectory(tempFile, programPath);
         AnsiConsole.WriteLine("[LOG] Unpacked");
     }
     catch(Exception ex) {
