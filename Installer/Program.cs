@@ -7,8 +7,9 @@ using static System.Environment;
 var config = new Config();
 var httpClient = new HttpClient();
 
-if (!Directory.Exists("Cache")) {
-    Directory.CreateDirectory("Cache");
+string tempPath = Path.Combine(Path.GetTempPath(), "SplatoonLoadoutInstaller");
+if (!Directory.Exists(tempPath)) {
+    Directory.CreateDirectory(tempPath);
 }
 
 await AnsiConsole.Status()
@@ -49,10 +50,18 @@ if (AnsiConsole.Confirm("Do you want to create a Desktop shortcut?", true)) {
     }
     catch (Exception ex) {
         WriteErrorAndDie(ex);
+
     }
-    
 }
 
+//Remove Cache folder
+try {
+    DirectoryInfo di = new DirectoryInfo(tempPath);
+    di.Delete(true);
+}
+catch (Exception ex) {
+    WriteErrorAndDie(ex);
+}
 async Task Download(StatusContext ctx)
 {
     try {
@@ -89,7 +98,7 @@ void Unpack(StatusContext ctx)
             foreach (DirectoryInfo dir in di.GetDirectories()) { dir.Delete(true); }
         }
 
-        ZipFile.ExtractToDirectory(config.GetCacheLocation(), programPath);
+        ZipFile.ExtractToDirectory(tempPath, programPath);
         AnsiConsole.WriteLine("[LOG] Unpacked");
     }
     catch(Exception ex) {
