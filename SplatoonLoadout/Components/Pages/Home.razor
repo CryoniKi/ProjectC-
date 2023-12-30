@@ -1,9 +1,37 @@
 ﻿@page "/"
 
+<MudPaper Style="padding:1rem; margin-top: 8rem;">
+    @foreach(var value in Enum.GetValues(typeof(Category)).Cast<Category>()) {
+        <MudPaper Elevation="10" Class="mt-5 p-5">
+            <div style="display: flex; gap:1rem; flex-wrap: wrap;">
+                <MudPaper Style="width:7rem;aspect-ratio:1;">
+                    <MudStack Style="height:100%;" Justify="Justify.Center" AlignItems="AlignItems.Center">
+                        <MudText Align="Align.Center">@(NameResolver.GetName(value))</MudText>
+                    </MudStack>
+                </MudPaper>
+
+                @foreach (var item in weapons.Where(e => e.Category == value)) {
+                        @if (item.Trait.Any(e => _unallowedTraits.Contains(e))) {
+                            <MudPaper Style="position:relative;width:7rem;aspect-ratio:1;">
+                                <MudImage Style="position:absolute;width: 100%;" Src="@(item.IconUrl)"></MudImage>
+                                <MudIcon Size=Size.Large Color=Color.Error Icon=@Icons.Material.Filled.Block Style="position:absolute;left:50%; top:50%; transform:translate(-50%, -50%)" />
+                            </MudPaper>
+                        }
+                        else{
+                            <MudPaper Style="width:7rem; aspect-ratio:1; cursor: pointer;" @onclick=@(() => TrySetActive(item))>
+                                <MudImage Style="width: 100%;" Src="@(item.IconUrl)"></MudImage>
+                            </MudPaper>
+                        }
+                }
+            </div>
+        </MudPaper>
+    }
+</MudPaper>
+
 <MudPaper Elevation="10" Style="padding:1rem; position:fixed; top:0; left:1rem; right:1rem;">
     <div style="display:grid; grid-template-columns: repeat(4, 7rem); gap:0.5rem; width:50%; margin-left:auto; margin-right:auto; justify-content:space-between">
-        @foreach(var (item, index) in _selected.Select((e,i) => (e,i))) {
-            @if(item is null) {
+        @foreach (var (item, index) in _selected.Select((e, i) => (e, i))) {
+            @if (item is null) {
                 <MudPaper Style="width:100%; aspect-ratio:1"></MudPaper>
             }
             else {
@@ -13,34 +41,6 @@
             }
         }
     </div>
-</MudPaper>
-
-<MudPaper Style="padding:1rem; margin-top: 8rem;">
-    @foreach(var value in Enum.GetValues(typeof(Category)).Cast<Category>()) {
-        <MudPaper Elevation="10" Class="mt-5 p-5">
-            <MudStack Row=true>
-                <MudPaper Style="width:7rem; margin-left:0.5rem; aspect-ratio:1;">
-                    <MudStack Style="height:100%;" Justify="Justify.Center" AlignItems="AlignItems.Center">
-                        <MudText Align="Align.Center">@(NameResolver.GetName(value))</MudText>
-                    </MudStack>
-                </MudPaper>
-
-                @foreach (var item in weapons.Where(e => e.Category == value)) {
-                        @if (item.Trait.Any(e => _unallowedTraits.Contains(e))) {
-                            <MudPaper Style="position:relative;width:7rem; margin-left:0.5rem; aspect-ratio:1;">
-                                <MudImage Style="position:absolute;width: 100%;" Src="@(item.IconUrl)"></MudImage>
-                                <MudIcon Size=Size.Large Color=Color.Error Icon=@Icons.Material.Filled.Block Style="position:absolute;left:50%; top:50%; transform:translate(-50%, -50%)" />
-                            </MudPaper>
-                        }
-                        else{
-                            <MudPaper Style="width:7rem; margin-left:0.5rem; aspect-ratio:1; cursor: pointer;" @onclick=@(() => TrySetActive(item))>
-                                <MudImage Style="width: 100%;" Src="@(item.IconUrl)"></MudImage>
-                            </MudPaper>
-                        }
-                }
-            </MudStack>
-        </MudPaper>
-    }
 </MudPaper>
 
 <!-- Watermark -->
