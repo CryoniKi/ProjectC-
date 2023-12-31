@@ -14,7 +14,7 @@
                         @if (item.Trait.Any(e => _unallowedTraits.Contains(e))) {
                             <MudPaper Style="position:relative;width:7rem;aspect-ratio:1;">
                                 <MudImage Style="position:absolute;width: 100%;" Src="@(item.IconUrl)"></MudImage>
-                                <MudIcon Size=Size.Large Color=Color.Error Icon=@Icons.Material.Filled.Block Style="position:absolute;left:50%; top:50%; transform:translate(-50%, -50%)" />
+                                <MudImage Style="position:absolute;width: 100%;" Src="https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/unavailable.png"></MudImage>
                             </MudPaper>
                         }
                         else{

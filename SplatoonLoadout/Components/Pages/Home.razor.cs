@@ -60,8 +60,12 @@ public partial class Home
         if (traitCounts[(int)Trait.PushingSpecial] >= 3)
             yield return Trait.PushingSpecial;
 
-        if (traitCounts[(int)Trait.Frontline] >= 2)
+        if (traitCounts[(int)Trait.Frontline] >= 3)
             yield return Trait.Frontline;
+
+        if (traitCounts[(int)Trait.Backline] >= 1) {
+            yield return Trait.Backline;
+        }
     }
 
     private async Task<List<WeaponModel>> GetWeapons()
