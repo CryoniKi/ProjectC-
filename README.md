@@ -1,1 +1,1 @@
-Please scroll down until the application "Splatoon Loadout" is visible, then click it!
+Please download the latest release, it will set off your windows defender/anti virus, it is NOT a virus. However feel free to not install this if you dont feel comfortable! For any bugs, feel free to message @CryoniKi on Discord, or Twitter! Thank you for using our program :)
