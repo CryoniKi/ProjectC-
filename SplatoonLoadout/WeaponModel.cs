@@ -22,7 +22,8 @@ public enum Trait
     LethalBomb,
     Range,
     Paint,
-    Frontline
+    Frontline,
+    Backline
 }
 
 public enum Category
