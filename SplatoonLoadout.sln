@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplatoonLoadout", "SplatoonLoadout\SplatoonLoadout.csproj", "{CC36A806-3609-4EBF-8082-B5D34BA27570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "Installer\Installer.csproj", "{03E40826-564C-4C90-90BC-C855C52336F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Installer", "Installer\Installer.csproj", "{03E40826-564C-4C90-90BC-C855C52336F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

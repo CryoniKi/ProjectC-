@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using MudBlazor.Services;
+using SplatoonLoadout.Services;
 
 namespace SplatoonLoadout;
 public static class MauiProgram
@@ -13,8 +14,10 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
             });
 
+        builder.Services.AddHttpClient();
         builder.Services.AddMauiBlazorWebView();
         builder.Services.AddMudServices();
+        builder.Services.AddTransient<UpdateChecker>();
 
 
 #if DEBUG

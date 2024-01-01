@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace SplatoonLoadout;
+namespace SplatoonLoadout.Models;
 public class WeaponModel
 {
     public string Name { get; set; } = string.Empty;
@@ -39,14 +39,15 @@ public enum Category
 
 public class NameResolver
 {
-    public static string GetName(Category category) => category switch {
-            Category.FrontlineSpeed => "Frontline Speed",
-            Category.FrontlineControl => "Frontline Control",
-            Category.MidlineControl => "Midline Control",
-            Category.MidlineAOE => "Midline AOE",
-            Category.NoRangeBackline => "No range backline",
-            Category.Backline => "Backline",
-            Category.Range => "Range",
-            _ => throw new NotImplementedException($"Category {category} was not recognized")
-        };
+    public static string GetName(Category category) => category switch
+    {
+        Category.FrontlineSpeed => "Frontline Speed",
+        Category.FrontlineControl => "Frontline Control",
+        Category.MidlineControl => "Midline Control",
+        Category.MidlineAOE => "Midline AOE",
+        Category.NoRangeBackline => "No range backline",
+        Category.Backline => "Backline",
+        Category.Range => "Range",
+        _ => throw new NotImplementedException($"Category {category} was not recognized")
+    };
 }

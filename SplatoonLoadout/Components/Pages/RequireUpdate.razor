@@ -1,0 +1,13 @@
+﻿@page "/RequireUpdate/{Tag}"
+
+<MudStack Justify="Justify.Center" Style="position: absolute; left:50%; top:50%; transform: translate(-50%, -50%);">
+    <MudText Typo="Typo.h4">There's a new update available. Version: @Tag</MudText>
+    <MudButton Color=Color.Primary Variant=Variant.Filled OnClick=@(() => NavigationManager.NavigateTo(string.Concat(RELEASE_URL, Tag)))><MudText Typo="Typo.h5">Update</MudText></MudButton>
+</MudStack>
+
+
+@code {
+    private const string RELEASE_URL = "https://github.com/CryoniKi/ProjectC-/releases/tag/";
+    [Inject] NavigationManager NavigationManager { get; set; } = default!;
+    [Parameter] public string Tag { get; set; } = string.Empty;
+}
