@@ -98,7 +98,8 @@
     "Category": 5,
     "Trait": [
       1,
-      3
+      3,
+      6
     ]
   },
   {
@@ -107,7 +108,8 @@
     "Category": 5,
     "Trait": [
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -309,7 +311,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK.png",
     "Category": 6,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -317,7 +320,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK_Scope.png",
     "Category": 6,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -335,7 +339,8 @@
     "Category": 5,
     "Trait": [
      3,
-     4
+     4,
+     6
     ]
   },
   {
@@ -420,16 +425,18 @@
     "Trait": [
       0,
       3,
-      4
+      4,
+      6
     ]
   },
   {
     "Name": "Heavy Splatling",
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling.png",
-    "Category": 2,
+    "Category": 5,
     "Trait": [
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -437,7 +444,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling_Deco.png",
     "Category": 5,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -457,7 +465,8 @@
     "Trait": [
       1,
       2,
-      3
+      3,
+      6
     ]
   },
   {
@@ -483,7 +492,8 @@
     "Category": 4,
     "Trait": [
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -561,7 +571,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Nautilus7.png",
     "Category": 4,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -642,7 +653,7 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster.png",
     "Category": 3,
     "Trait": [
-     3 
+     3,
     ]
   },
   {
@@ -659,7 +670,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro.png",
     "Category": 4,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -667,7 +679,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro_Deco.png",
     "Category": 4,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
@@ -747,7 +760,8 @@
     "Category": 6,
     "Trait": [
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -757,7 +771,8 @@
     "Trait": [
       0,
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -840,7 +855,8 @@
     "Category": 5,
     "Trait": [
       2,
-      3
+      3,
+      6
     ]
   },
   {
@@ -943,7 +959,8 @@
     "Category": 4,
     "Trait": [
       3,
-      4
+      4,
+      6
     ]
   },
   {
@@ -975,7 +992,8 @@
     "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Z+F_Splatterscope.png",
     "Category": 5,
     "Trait": [
-      3
+      3,
+      6
     ]
   },
   {
