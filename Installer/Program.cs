@@ -8,10 +8,10 @@ var config = new Config();
 var httpClient = new HttpClient();
 
 string tempPath = Path.Combine(Path.GetTempPath(), "SplatoonLoadoutInstaller");
-string tempFile = Path.Combine(tempPath, config.GetFileName());
-if (!Directory.Exists(tempPath)) {
-    Directory.CreateDirectory(tempPath);
-}
+string tempFile = Path.Combine(tempPath, config.FileName);
+string programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.Project);
+
+DirectoryExtensions.ExistOrCreate(tempPath);
 
 await AnsiConsole.Status()
     .Spinner(Spinner.Known.Dots)
@@ -22,15 +22,8 @@ await AnsiConsole.Status()
 
 if (AnsiConsole.Confirm("Do you want to create a Start Menu shortcut?", true)) {
     try {
-        IShellLink link = (IShellLink)new ShellLink();
-        link.SetDescription("Splatoon Loadout");
-        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
-        link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
-        link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
-
-        IPersistFile file = (IPersistFile)link;
-        string startMenuPath = Environment.GetFolderPath(Environment.SpecialFolder.StartMenu);
-        file.Save(Path.Combine(startMenuPath, "Splatoon Loadout.lnk"), false);
+        string startMenuPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu), "Programs");
+        WriteShortcut(startMenuPath);
     }
     catch (Exception ex) {
         WriteErrorAndDie(ex);
@@ -39,26 +32,17 @@ if (AnsiConsole.Confirm("Do you want to create a Start Menu shortcut?", true)) {
 
 if (AnsiConsole.Confirm("Do you want to create a Desktop shortcut?", true)) {
     try {
-        IShellLink link = (IShellLink)new ShellLink();
-        link.SetDescription("Splatoon Loadout");
-        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
-        link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
-        link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
-
-        IPersistFile file = (IPersistFile)link;
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-        file.Save(Path.Combine(desktopPath, "Splatoon Loadout.lnk"), false);
+        WriteShortcut(desktopPath);
     }
     catch (Exception ex) {
         WriteErrorAndDie(ex);
-
     }
 }
 
 //Remove Cache folder
 try {
-    DirectoryInfo di = new DirectoryInfo(tempPath);
-    di.Delete(true);
+    new DirectoryInfo(tempPath).Delete(true);
 }
 catch (Exception ex) {
     WriteErrorAndDie(ex);
@@ -68,9 +52,8 @@ async Task Download(StatusContext ctx)
     try {
         HttpResponseMessage response = await httpClient.GetAsync(config.GetGithubLink());
         response.EnsureSuccessStatusCode();
-        using (var fs = new FileStream(tempFile, FileMode.OpenOrCreate)) {
-            await response.Content.CopyToAsync(fs);
-        }
+        using var fs = new FileStream(tempFile, FileMode.OpenOrCreate);
+        await response.Content.CopyToAsync(fs);
 
         AnsiConsole.WriteLine("[LOG] Downloaded");
     }
@@ -84,15 +67,10 @@ void Unpack(StatusContext ctx)
 {
     try {
         ctx.Status("Unpacking files");
-        var programPath = Path.Combine(GetFolderPath(SpecialFolder.LocalApplicationData), config.GetProject());
+        
+        bool existed = DirectoryExtensions.ExistOrCreate(programPath);
 
-        if (!Directory.Exists(programPath)) {
-            Directory.CreateDirectory(programPath);
-        }
-
-        string[] files = Directory.GetFiles(programPath);
-        string[] directories = Directory.GetDirectories(programPath);
-        if (files.Length > 0 || directories.Length > 0) {
+        if (existed) {
             AnsiConsole.WriteLine("[LOG] Removing old files");
             DirectoryInfo di = new DirectoryInfo(programPath);
             foreach (FileInfo file in di.GetFiles()) { file.Delete(); }
@@ -100,7 +78,7 @@ void Unpack(StatusContext ctx)
         }
 
         ZipFile.ExtractToDirectory(tempFile, programPath);
-        AnsiConsole.WriteLine("[LOG] Unpacked");
+        AnsiConsole.WriteLine("[LOG] Files unpacked");
     }
     catch(Exception ex) {
         WriteErrorAndDie(ex);
@@ -109,6 +87,18 @@ void Unpack(StatusContext ctx)
 
 void WriteErrorAndDie(Exception ex)
 {
-    AnsiConsole.WriteException(ex, ExceptionFormats.ShortenPaths | ExceptionFormats.ShortenTypes | ExceptionFormats.ShortenMethods | ExceptionFormats.ShowLinks);
-    Environment.Exit(1);
+    AnsiConsole.WriteException(ex, ExceptionFormats.ShortenEverything);
+    Exit(1);
+}
+
+void WriteShortcut(string destination)
+{
+    IShellLink link = (IShellLink)new ShellLink();
+
+    link.SetDescription("Splatoon Loadout");
+    link.SetPath(Path.Combine(programPath, "SplatoonLoadout.exe"));
+    link.SetIconLocation(Path.Combine(programPath, "SplatoonLoadout.exe"), 0);
+
+    IPersistFile file = (IPersistFile)link;
+    file.Save(Path.Combine(destination, "Splatoon Loadout.lnk"), false);
 }

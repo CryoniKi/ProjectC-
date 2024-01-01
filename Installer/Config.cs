@@ -1,31 +1,25 @@
-﻿using Microsoft.Extensions.Configuration;
-using System.Diagnostics;
-using System.Reflection;
+﻿using System.Reflection;
+using System.Text.Json;
 
 namespace Installer;
-internal class Config
+internal class Config(JsonElement element)
 {
-    private readonly IConfiguration _configuration = LoadConfig();
-    private static IConfiguration LoadConfig()
+    public Config() : this(LoadConfig()) { }
+
+    public string User { get; } = element.GetProperty(nameof(User)).GetString() ?? throw new KeyNotFoundException();
+    public string Project { get; } = element.GetProperty(nameof(Project)).GetString() ?? throw new KeyNotFoundException();
+    public string FileName { get; } = element.GetProperty(nameof(FileName)).GetString() ?? throw new KeyNotFoundException();
+    public string ReleaseVersion { get; } = element.GetProperty(nameof(ReleaseVersion)).GetString() ?? throw new KeyNotFoundException();
+
+    private static JsonElement LoadConfig()
     {
         var assembly = Assembly.GetExecutingAssembly();
-        var resourceName = "Installer.appsettings.json"; // Update the namespace accordingly
+        var resourceName = "Installer.appsettings.json";
 
-        using (Stream stream = assembly.GetManifestResourceStream(resourceName)) {
-            using (StreamReader reader = new StreamReader(stream)) {
-                var json = reader.ReadToEnd();
-                return new ConfigurationBuilder()
-                    .AddJsonStream(new MemoryStream(System.Text.Encoding.UTF8.GetBytes(json)))
-                    .Build();
-            }
-        }
+        using Stream stream = assembly.GetManifestResourceStream(resourceName) ?? throw new NullReferenceException("Manifest was null");
+        return JsonSerializer.Deserialize<JsonElement>(stream).GetProperty("Github");
     }
-    
-    public string GetUser() => _configuration["Github:User"];
-    public string GetProject() => _configuration["Github:Project"];
-    public string GetReleaseVersion() => _configuration["Github:ReleaseVersion"];
-    public string GetFileName() => _configuration["Github:FileName"];
 
-    public string GetGithubLink() => $"https://github.com/{GetUser()}/{GetProject()}/releases/download/{GetReleaseVersion()}/{GetFileName()}";
-    public string GetCacheLocation() => $"Cache/{_configuration["Github:FileName"]}";
+    public string GetGithubLink() => $"https://github.com/{User}/{Project}/releases/download/{ReleaseVersion}/{FileName}";
+    public string GetCacheLocation() => $"Cache/{FileName}";
 }
