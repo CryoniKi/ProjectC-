@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using LiteDB;
+using Microsoft.Extensions.Logging;
 using MudBlazor.Services;
 using SplatoonLoadout.Services;
 
@@ -18,6 +19,13 @@ public static class MauiProgram
         builder.Services.AddMauiBlazorWebView();
         builder.Services.AddMudServices();
         builder.Services.AddTransient<UpdateChecker>();
+        builder.Services.AddTransient<CacheService>();
+        builder.Services.AddTransient<WeaponService>();
+        builder.Services.AddSingleton<ILiteDatabase, LiteDatabase>(e => new LiteDatabase("Cache/Database.db"));
+
+        if(!Directory.Exists("Cache")) {
+            Directory.CreateDirectory("Cache");
+        }
 
 
 #if DEBUG

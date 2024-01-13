@@ -1,1008 +1,775 @@
-[
-  {
-    "Name": "Jet Squelcher",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/jet_squelcher.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "N-Zap 85",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/nzap_85.png",
-    "Category": 1,
-    "Trait": [
-      0,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Tri-Slosher Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/tri-slosher_nouveau.png",
-    "Category": 1,
-    "Trait": [
-      0,
-      5
-    ]
-  },
-  {
-    "Name": "Splat Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/splat_dualies.webp",
-    "Category": 0,
-    "Trait": [
-      1,
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": ".52 Gal",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.52_Gal.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": ".96 Gal",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.96_Gal.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": ".96 Gal Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.96_Gal_Deco.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Aerospray MG",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Aerospray_MG.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-
-    ]
-  },
-  {
-    "Name": "Aerospray RG",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Aerospray_RG.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Annaki Splattershot Nova",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Annaki_Splattershot_Nova.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Ballpoint Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling.png",
-    "Category": 5,
-    "Trait": [
-      1,
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Ballpoint Splatling Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling_Nouveau.png",
-    "Category": 5,
-    "Trait": [
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Bamboozler 14 Mk I",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bamboozler_14_Mk_I.png",
-    "Category": 2,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Big Swig Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Big_Swig_Roller.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Big Swig Roller Express",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Big_Swig_Roller_Express.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Blaster.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Bloblobber",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bloblobber.png",
-    "Category": 3,
-    "Trait": [
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Bloblobber Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bloblobber_Deco.png",
-    "Category": 3,
-    "Trait": [
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Carbon Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Carbon_Roller.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Carbon Roller Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Carbon_Roller_Deco.png",
-    "Category": 0,
-    "Trait": [
-      1,
-      5
-    ]
-  },
-  {
-    "Name": "Clash Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Clash_Blaster.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Clash Blaster Neo",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Clash_Blaster_Neo.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Classic Squiffer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Classic_Squiffer.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Custom Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Blaster.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Custom Dualie Squelchers",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Dualie_Squelchers.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Custom Goo Tuber",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Goo_Tuber.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Custom Jet Squelcher",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Jet_Squelcher.png",
-    "Category": 2,
-    "Trait": [
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Custom Splattershot Jr.",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Splattershot_Jr..png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Dapple Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dapple_Dualies.png",
-    "Category": 0,
-    "Trait": [
-      0,
-      5
-    ]
-  },
-  {
-    "Name": "Dapple Dualies Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dapple_Dualies_Nouveau.png",
-    "Category": 0,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Dark Tetra Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dark_Tetra_Dualies.png",
-    "Category": 0,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Dread Wringer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dread_Wringer.png",
-    "Category": 3,
-    "Trait": [
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Dualie Squelchers",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dualie_Squelchers.png",
-    "Category": 2,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Dynamo Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dynamo_Roller.png",
-    "Category": 3,
-    "Trait": [
-      0,
-      3
-    ]
-  },
-  {
-    "Name": "E-liter 4K",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK.png",
-    "Category": 6,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "E-Liter 4K Scope",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK_Scope.png",
-    "Category": 6,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Enperry Splat Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Enperry_Splat_Dualies.png",
-    "Category": 0,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Explosher",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Explosher.png",
-    "Category": 5,
-    "Trait": [
-     3,
-     4,
-     6
-    ]
-  },
-  {
-    "Name": "Flingza Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Flingza_Roller.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      3,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Foil Squeezer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Foil_Squeezer.png",
-    "Category": 2,
-    "Trait": [
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Forge Splattershot Pro",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Forge_Splattershot_Pro.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Glooga Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Glooga_Dualies.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Gold Dynamo Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Gold_Dynamo_Roller.png",
-    "Category": 3,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Goo Tuber",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Goo_Tuber.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "H-3 Nozzlenose",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/H-3_Nozzlenose.png",
-    "Category": 2,
-    "Trait": [
-      0,
-      3
-    ]
-  },
-  {
-    "Name": "H-3 Nozzlenose D",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/H-3_Nozzlenose_D.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Heavy Edit Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Edit_Splatling.png",
-    "Category": 4,
-    "Trait": [
-      0,
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Heavy Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling.png",
-    "Category": 5,
-    "Trait": [
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Heavy Splatling Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling_Deco.png",
-    "Category": 5,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Hero Shot Replica",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Hero_Shot_Replica.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Hydra Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Hydra_Splatling.png",
-    "Category": 5,
-    "Trait": [
-      1,
-      2,
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Inkbrush",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkbrush.png",
-    "Category": 0,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Inkbrush Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkbrush_Nouveau.png",
-    "Category": 0,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Inkline Tri-Stringer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkline_Tri-Stringer.png",
-    "Category": 4,
-    "Trait": [
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Krak-On Splat Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Krak-On_Splat_Roller.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "L-3 Nozzlenose",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/L-3_Nozzlenose.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "L-3 Nozzlenose D",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/L-3_Nozzlenose_D.png",
-    "Category": 1,
-    "Trait": [
-     4,
-     5 
-    ]
-  },
-  {
-    "Name": "Light Tetra Dualies",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Light_Tetra_Dualies.png",
-    "Category": 0,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Luna Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Luna_Blaster.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Luna Blaster Neo",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Luna_Blaster_Neo.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Mini Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Mini_Splatling.png",
-    "Category": 2,
-    "Trait": [
-      4
-    ]
-  },
-  {
-    "Name": "N-Zap 89'",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/N-Zap_89'.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Nautilus 47",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Nautilus7.png",
-    "Category": 4,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Neo Splash-o-matic",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Splash-o-matic.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Neo Splatana Stamper",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Splatana_Stamper.png",
-    "Category": 2,
-    "Trait": [
-      1, 
-      3, 
-      4
-    ]
-  },
-  {
-    "Name": "Neo Sploosh-o-matic",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Sploosh-o-matic.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-
-    ]
-  },
-  {
-    "Name": "Octobrush",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Octobrush.png",
-    "Category": 0,
-    "Trait": [
-      2,
-      5
-    ]
-  },
-  {
-    "Name": "Octobrush Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Octobrush_Nouveau.png",
-    "Category": 0,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Painbrush",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Painbrush.png",
-    "Category": 3,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Painbrush Nouveau",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Painbrush_Nouveau.png",
-    "Category": 3,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Range Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Range_Blaster.png",
-    "Category": 3,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Rapid Blaster",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster.png",
-    "Category": 3,
-    "Trait": [
-     3
-    ]
-  },
-  {
-    "Name": "Rapid Blaster Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Deco.png",
-    "Category": 3,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Rapid Blaster Pro",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro.png",
-    "Category": 4,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Rapid Blaster Pro Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro_Deco.png",
-    "Category": 4,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "REEF-LUX 450",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/REEF-LUX50.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "REEF-LUX 450 Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/REEF-LUX50_Deco.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "S-BLAST '91",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/S-BLAST_'91.png",
-    "Category": 3,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "S-BLAST '92",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/S-BLAST_'92.png",
-    "Category": 3,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Slosher",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Slosher.png",
-    "Category": 3,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Slosher Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Slosher_Deco.png",
-    "Category": 3,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Sloshing Machine",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sloshing_Machine.png",
-    "Category": 3,
-    "Trait": [
-      1,
-      4
-    ]
-  },
-  {
-    "Name": "Sloshing Machine Neo",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sloshing_Machine_Neo.png",
-    "Category": 3,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Snipewriter 5B",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Snipewriter_5B.png",
-    "Category": 6,
-    "Trait": [
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Snipewriter 5H",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Snipewriter_5H.png",
-    "Category": 6,
-    "Trait": [
-      0,
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Sorella Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sorella_Brella.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      3,
-      5
-    ]
-  },
-  {
-    "Name": "Splash-o-matic",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splash-o-matic.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splat Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Brella.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Splat Charger",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Charger.png",
-    "Category": 2,
-    "Trait": [
-      2,
-      3
-    ]
-  },
-  {
-    "Name": "Splat Roller",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Roller.png",
-    "Category": 1,
-    "Trait": [
-    5
-    ]
-  },
-  {
-    "Name": "Splatana Stamper",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Stamper.png",
-    "Category": 3,
-    "Trait": [
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Splatana Wiper",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Wiper.png",
-    "Category": 0,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splatana Wiper Deco",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Wiper_Deco.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      3,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splatterscope",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatterscope.png",
-    "Category": 5,
-    "Trait": [
-      2,
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Splattershot",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splattershot Jr.",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Jr..png",
-    "Category": 1,
-    "Trait": [
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splattershot Nova",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Nova.png",
-    "Category": 1,
-    "Trait": [
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Splattershot Pro",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Pro.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Sploosh-o-matic",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sploosh-o-matic.png",
-    "Category": 1,
-    "Trait": [
-      4, 
-      5  
-    ]
-  },
-  {
-    "Name": "Squeezer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Squeezer.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      3,
-      4
-    ]
-  },
-  {
-    "Name": "Tenta Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tenta_Brella.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Tenta Sorella Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tenta_Sorella_Brella.png",
-    "Category": 2,
-    "Trait": [
-      1,
-      3
-    ]
-  },
-  {
-    "Name": "Tentatek Splattershot",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tentatek_Splattershot.png",
-    "Category": 1,
-    "Trait": [
-      2,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Tri-Slosher",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tri-Slosher.png",
-    "Category": 1,
-    "Trait": [
-      1,
-      4,
-      5
-    ]
-  },
-  {
-    "Name": "Tri-Stringer",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tri-Stringer.png",
-    "Category": 4,
-    "Trait": [
-      3,
-      4,
-      6
-    ]
-  },
-  {
-    "Name": "Undercover Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Undercover_Brella.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Undercover Sorella Brella",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Undercover_Sorella_Brella.png",
-    "Category": 1,
-    "Trait": [
-      5
-    ]
-  },
-  {
-    "Name": "Z+F Splat Charger",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Z+F_Splat_Charger.png",
-    "Category": 2,
-    "Trait": [
-      3
-    ]
-  },
-  {
-    "Name": "Z+F Splatterscope",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Z+F_Splatterscope.png",
-    "Category": 5,
-    "Trait": [
-      3,
-      6
-    ]
-  },
-  {
-    "Name": "Zink Mini Splatling",
-    "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Zink_Mini_Splatling.png",
-    "Category": 2,
-    "Trait": [
-      3
-
-    ]
-  }
-]
+{
+  "Version": "1.0.0",
+  "Weapons": [
+    {
+      "Name": "Jet Squelcher",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/jet_squelcher.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "91DD600A-23CE-459E-86A1-5494FCA75511"
+    },
+    {
+      "Name": "N-Zap 85",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/nzap_85.png",
+      "Category": 1,
+      "Trait": "0 4 5",
+      "Id": "8D9B6556-515E-4739-A772-D4A90A65DE63"
+    },
+    {
+      "Name": "Tri-Slosher Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/tri-slosher_nouveau.png",
+      "Category": 1,
+      "Trait": "0 5",
+      "Id": "11354E10-4703-4D71-974D-75B1331B5CCF"
+    },
+    {
+      "Name": "Splat Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/splat_dualies.webp",
+      "Category": 0,
+      "Trait": "1 2 4 5",
+      "Id": "0AC06C5B-0D42-4B74-84E1-CF2E9E1EA04D"
+    },
+    {
+      "Name": ".52 Gal",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.52_Gal.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "8A36D718-9E8B-47A3-8805-C3A3EFFC9EE5"
+    },
+    {
+      "Name": ".96 Gal",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.96_Gal.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "B4725152-52F2-43D4-95FB-58FF9998F344"
+    },
+    {
+      "Name": ".96 Gal Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/.96_Gal_Deco.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "C2EC457A-82F6-4E37-A309-D564BEE3A241"
+    },
+    {
+      "Name": "Aerospray MG",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Aerospray_MG.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "DEDCBF5A-28D4-434B-ACA5-3213E90198F4"
+    },
+    {
+      "Name": "Aerospray RG",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Aerospray_RG.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "1AA1D439-2F42-4DBB-9AE2-1F19E25FB4B3"
+    },
+    {
+      "Name": "Annaki Splattershot Nova",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Annaki_Splattershot_Nova.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "61686DE2-887E-4886-8291-BBB66512FD17"
+    },
+    {
+      "Name": "Ballpoint Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling.png",
+      "Category": 5,
+      "Trait": "1 3 6",
+      "Id": "357F4E36-BB22-4F15-9825-167FA8E86FD6"
+    },
+    {
+      "Name": "Ballpoint Splatling Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Ballpoint_Splatling_Nouveau.png",
+      "Category": 5,
+      "Trait": "3 4 6",
+      "Id": "C3D6E44A-7A00-45E4-A659-3AD4D8B9F0A3"
+    },
+    {
+      "Name": "Bamboozler 14 Mk I",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bamboozler_14_Mk_I.png",
+      "Category": 2,
+      "Trait": "2 3",
+      "Id": "E68B9A1B-9E48-41D5-921C-F6E01227BD8B"
+    },
+    {
+      "Name": "Big Swig Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Big_Swig_Roller.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "B160E384-1C38-4E9E-BC65-9995285A7A65"
+    },
+    {
+      "Name": "Big Swig Roller Express",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Big_Swig_Roller_Express.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "1AF0B47C-39C9-467F-9017-42C08A5A9463"
+    },
+    {
+      "Name": "Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Blaster.png",
+      "Category": 1,
+      "Trait": "2 5",
+      "Id": "904C1018-CAF4-4F2C-BA52-43417CE13055"
+    },
+    {
+      "Name": "Bloblobber",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bloblobber.png",
+      "Category": 3,
+      "Trait": "3 4",
+      "Id": "D1DF7DAF-707E-4D3C-AA35-99D432B5178C"
+    },
+    {
+      "Name": "Bloblobber Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Bloblobber_Deco.png",
+      "Category": 3,
+      "Trait": "3 4",
+      "Id": "8FC12487-B6D3-4785-AA4B-7A19F5E12BD1"
+    },
+    {
+      "Name": "Carbon Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Carbon_Roller.png",
+      "Category": 1,
+      "Trait": "2 5",
+      "Id": "D4A4824D-2CE4-4DC3-8638-F861E157B521"
+    },
+    {
+      "Name": "Carbon Roller Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Carbon_Roller_Deco.png",
+      "Category": 0,
+      "Trait": "1 5",
+      "Id": "CBDD93EE-0C6A-4C2F-8869-14B2FF783DC9"
+    },
+    {
+      "Name": "Clash Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Clash_Blaster.png",
+      "Category": 1,
+      "Trait": "1 2 5",
+      "Id": "B86CE800-97FF-4A93-9BFD-9B9DD186C8A0"
+    },
+    {
+      "Name": "Clash Blaster Neo",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Clash_Blaster_Neo.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "F996E303-45FC-4C93-9F5B-4041BC31CA2E"
+    },
+    {
+      "Name": "Classic Squiffer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Classic_Squiffer.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "59EA753E-3108-4FEF-A5E5-E68C146C7C7E"
+    },
+    {
+      "Name": "Custom Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Blaster.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "D8755C01-ED19-4BFC-BEC0-009262403D47"
+    },
+    {
+      "Name": "Custom Dualie Squelchers",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Dualie_Squelchers.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "67771AA2-E793-4AF3-A773-445C84073E06"
+    },
+    {
+      "Name": "Custom Goo Tuber",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Goo_Tuber.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "57517293-1310-46D9-A57D-0A83BE43D2FD"
+    },
+    {
+      "Name": "Custom Jet Squelcher",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Jet_Squelcher.png",
+      "Category": 2,
+      "Trait": "3 4",
+      "Id": "B89E93A6-738C-4CB3-A094-D0CF9E02B90D"
+    },
+    {
+      "Name": "Custom Splattershot Jr.",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Custom_Splattershot_Jr..png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "F1BCCD8E-483C-47DF-926B-ABC0E5D703BC"
+    },
+    {
+      "Name": "Dapple Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dapple_Dualies.png",
+      "Category": 0,
+      "Trait": "0 5",
+      "Id": "E33B5D18-B05F-421A-9874-9EB8EBEEBC5E"
+    },
+    {
+      "Name": "Dapple Dualies Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dapple_Dualies_Nouveau.png",
+      "Category": 0,
+      "Trait": "5",
+      "Id": "E59362ED-D64D-406A-94A4-4DD2384C8E8C"
+    },
+    {
+      "Name": "Dark Tetra Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dark_Tetra_Dualies.png",
+      "Category": 0,
+      "Trait": "2 5",
+      "Id": "8440439D-F837-49A4-8B0F-BF3160ACCBB3"
+    },
+    {
+      "Name": "Dread Wringer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dread_Wringer.png",
+      "Category": 3,
+      "Trait": "2 3 4",
+      "Id": "8AD204D9-1277-4C4B-B68B-2553C4A7120B"
+    },
+    {
+      "Name": "Dualie Squelchers",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dualie_Squelchers.png",
+      "Category": 2,
+      "Trait": "2 3",
+      "Id": "9B58E27B-C711-4C0D-A549-386BCB4C1327"
+    },
+    {
+      "Name": "Dynamo Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Dynamo_Roller.png",
+      "Category": 3,
+      "Trait": "0 3",
+      "Id": "270F8848-4FF7-4EA2-A918-6AD124DF5671"
+    },
+    {
+      "Name": "E-liter 4K",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK.png",
+      "Category": 6,
+      "Trait": "3 6",
+      "Id": "A667F583-56F6-475E-A7FF-A2D75FAF3EE3"
+    },
+    {
+      "Name": "E-Liter 4K Scope",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/E-literK_Scope.png",
+      "Category": 6,
+      "Trait": "3 6",
+      "Id": "B128981B-5354-436E-ADCF-974D46A34CC1"
+    },
+    {
+      "Name": "Enperry Splat Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Enperry_Splat_Dualies.png",
+      "Category": 0,
+      "Trait": "4 5",
+      "Id": "9F5A745E-782E-4ABA-95A1-D9EA648EBCC4"
+    },
+    {
+      "Name": "Explosher",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Explosher.png",
+      "Category": 5,
+      "Trait": "3 4 6",
+      "Id": "FBEFE67F-044E-4114-A2CE-8E4352688DCD"
+    },
+    {
+      "Name": "Flingza Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Flingza_Roller.png",
+      "Category": 1,
+      "Trait": "1 3 4 5",
+      "Id": "F44D40FE-7FE3-405B-8F12-151D63CA1C1F"
+    },
+    {
+      "Name": "Foil Squeezer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Foil_Squeezer.png",
+      "Category": 2,
+      "Trait": "2 3 4",
+      "Id": "4BB909D6-1268-4985-8DFC-80381105A1BB"
+    },
+    {
+      "Name": "Forge Splattershot Pro",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Forge_Splattershot_Pro.png",
+      "Category": 2,
+      "Trait": "1 2 3",
+      "Id": "1F6FEEC0-BCE6-4EE4-9FC1-E85D972287B8"
+    },
+    {
+      "Name": "Glooga Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Glooga_Dualies.png",
+      "Category": 2,
+      "Trait": "1 3",
+      "Id": "1DD12DD9-19DD-450E-914A-111C7F329E7B"
+    },
+    {
+      "Name": "Gold Dynamo Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Gold_Dynamo_Roller.png",
+      "Category": 3,
+      "Trait": "2 3",
+      "Id": "ED348AFF-A1A6-4CCB-98D2-63967A7EC42E"
+    },
+    {
+      "Name": "Goo Tuber",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Goo_Tuber.png",
+      "Category": 2,
+      "Trait": "1 3",
+      "Id": "66C4DD61-6019-44C0-9B5C-88BB65B2D423"
+    },
+    {
+      "Name": "H-3 Nozzlenose",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/H-3_Nozzlenose.png",
+      "Category": 2,
+      "Trait": "0 3",
+      "Id": "51A9BE2A-55FA-45F8-B15D-69742C56D5E7"
+    },
+    {
+      "Name": "H-3 Nozzlenose D",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/H-3_Nozzlenose_D.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "44E97104-44A7-45A8-B784-5425B49FA665"
+    },
+    {
+      "Name": "Heavy Edit Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Edit_Splatling.png",
+      "Category": 4,
+      "Trait": "0 3 4 6",
+      "Id": "0DB6DF38-7292-43EA-8CCA-CBC93E9F2BF1"
+    },
+    {
+      "Name": "Heavy Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling.png",
+      "Category": 5,
+      "Trait": "3 4 6",
+      "Id": "24D29E2F-7956-4CEE-BBC9-C8C9FAFCAC07"
+    },
+    {
+      "Name": "Heavy Splatling Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Heavy_Splatling_Deco.png",
+      "Category": 5,
+      "Trait": "3 6",
+      "Id": "C5DF8107-9EE8-47BD-AF20-CCFFBFCBCB7D"
+    },
+    {
+      "Name": "Hero Shot Replica",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Hero_Shot_Replica.png",
+      "Category": 1,
+      "Trait": "1 2 5",
+      "Id": "A76E79F7-0EBE-45A2-9CAC-E373BE4A901B"
+    },
+    {
+      "Name": "Hydra Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Hydra_Splatling.png",
+      "Category": 5,
+      "Trait": "1 2 3 6",
+      "Id": "5E5A1277-8B2E-4CC4-9FC1-9B0AC7D1B576"
+    },
+    {
+      "Name": "Inkbrush",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkbrush.png",
+      "Category": 0,
+      "Trait": "2 5",
+      "Id": "561256C3-1CDD-4291-816F-C0FA30977AA2"
+    },
+    {
+      "Name": "Inkbrush Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkbrush_Nouveau.png",
+      "Category": 0,
+      "Trait": "5",
+      "Id": "082FC4CC-551B-4314-A8DE-5CFFC1296F1D"
+    },
+    {
+      "Name": "Inkline Tri-Stringer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Inkline_Tri-Stringer.png",
+      "Category": 4,
+      "Trait": "3 4 6",
+      "Id": "0C4F8039-FCC1-4A60-AAD5-4A28D185B198"
+    },
+    {
+      "Name": "Krak-On Splat Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Krak-On_Splat_Roller.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "442ADF5E-788B-41DC-A8D0-215E7F44B198"
+    },
+    {
+      "Name": "L-3 Nozzlenose",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/L-3_Nozzlenose.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "B5E5F6D6-04B3-4588-9001-B233B437E1BE"
+    },
+    {
+      "Name": "L-3 Nozzlenose D",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/L-3_Nozzlenose_D.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "05514CA7-DC3B-4CEA-BF2A-B0D215B1F0AC"
+    },
+    {
+      "Name": "Light Tetra Dualies",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Light_Tetra_Dualies.png",
+      "Category": 0,
+      "Trait": "5",
+      "Id": "B8F3C8B4-4FCF-4D0D-9E7C-03CE0BD045A7"
+    },
+    {
+      "Name": "Luna Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Luna_Blaster.png",
+      "Category": 1,
+      "Trait": "2 5",
+      "Id": "4E214E1B-CB7B-42D6-98ED-A7650DEAC575"
+    },
+    {
+      "Name": "Luna Blaster Neo",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Luna_Blaster_Neo.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "E0A4ECAA-8555-40AD-A67E-D50A0E5EDE1B"
+    },
+    {
+      "Name": "Mini Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Mini_Splatling.png",
+      "Category": 2,
+      "Trait": "4",
+      "Id": "D30000FA-A7C2-4302-ABE8-BD37FCCB5048"
+    },
+    {
+      "Name": "N-Zap 89\u0027",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/N-Zap_89\u0027.png",
+      "Category": 1,
+      "Trait": "2 4 5",
+      "Id": "A589A17D-D3AB-4815-8812-16D1D12F7C06"
+    },
+    {
+      "Name": "Nautilus 47",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Nautilus7.png",
+      "Category": 4,
+      "Trait": "3 6",
+      "Id": "2F8A8EA2-A67B-4DAE-8B9D-24A0068812EA"
+    },
+    {
+      "Name": "Neo Splash-o-matic",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Splash-o-matic.png",
+      "Category": 1,
+      "Trait": "2 4 5",
+      "Id": "F7E2998F-62CE-40BC-9872-8598447087D4"
+    },
+    {
+      "Name": "Neo Splatana Stamper",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Splatana_Stamper.png",
+      "Category": 2,
+      "Trait": "1 3 4",
+      "Id": "6E7CA01A-56C7-41CE-A985-17503B41B72E"
+    },
+    {
+      "Name": "Neo Sploosh-o-matic",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Neo_Sploosh-o-matic.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "E14B11B7-2ECF-427B-989A-BBE994EB8E59"
+    },
+    {
+      "Name": "Octobrush",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Octobrush.png",
+      "Category": 0,
+      "Trait": "2 5",
+      "Id": "97520588-FB7B-48F8-8ACD-E10D7D9EFDA3"
+    },
+    {
+      "Name": "Octobrush Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Octobrush_Nouveau.png",
+      "Category": 0,
+      "Trait": "5",
+      "Id": "52453AA2-9927-489C-8CD4-B98AC9F43B8E"
+    },
+    {
+      "Name": "Painbrush",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Painbrush.png",
+      "Category": 3,
+      "Trait": "3",
+      "Id": "F216D6F1-7787-45E5-9E26-425B0805FCF4"
+    },
+    {
+      "Name": "Painbrush Nouveau",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Painbrush_Nouveau.png",
+      "Category": 3,
+      "Trait": "1 3",
+      "Id": "DE903210-7B8E-42FA-AB08-186446623C75"
+    },
+    {
+      "Name": "Range Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Range_Blaster.png",
+      "Category": 3,
+      "Trait": "2 3",
+      "Id": "1836DE10-B838-4BFD-832D-F9FCFF346B66"
+    },
+    {
+      "Name": "Rapid Blaster",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster.png",
+      "Category": 3,
+      "Trait": "3",
+      "Id": "057FFE94-B560-4E45-A2B9-681120F0A44F"
+    },
+    {
+      "Name": "Rapid Blaster Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Deco.png",
+      "Category": 3,
+      "Trait": "1 3",
+      "Id": "6CD7BDEC-90FD-48EB-AD42-BF11BB81C741"
+    },
+    {
+      "Name": "Rapid Blaster Pro",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro.png",
+      "Category": 4,
+      "Trait": "3 6",
+      "Id": "8C11CD6E-54E9-4A72-8545-736477D43E3C"
+    },
+    {
+      "Name": "Rapid Blaster Pro Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Rapid_Blaster_Pro_Deco.png",
+      "Category": 4,
+      "Trait": "3 6",
+      "Id": "9FC5FA90-6274-486E-90E6-C88F9DC1590E"
+    },
+    {
+      "Name": "REEF-LUX 450",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/REEF-LUX50.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "18B821EC-8341-458D-ACBB-4A000178902B"
+    },
+    {
+      "Name": "REEF-LUX 450 Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/REEF-LUX50_Deco.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "B981897B-C000-441F-8780-1C5372570641"
+    },
+    {
+      "Name": "S-BLAST \u002791",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/S-BLAST_\u002791.png",
+      "Category": 3,
+      "Trait": "1 3",
+      "Id": "89CC4C3D-2320-4740-9B78-AE8F7ED7A22C"
+    },
+    {
+      "Name": "S-BLAST \u002792",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/S-BLAST_\u002792.png",
+      "Category": 3,
+      "Trait": "3",
+      "Id": "5FFEBD6E-46D7-4471-982A-86E1AACB3DBB"
+    },
+    {
+      "Name": "Slosher",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Slosher.png",
+      "Category": 3,
+      "Trait": "2 3",
+      "Id": "22264168-3C01-43FB-BBB2-1D2397AFFFEC"
+    },
+    {
+      "Name": "Slosher Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Slosher_Deco.png",
+      "Category": 3,
+      "Trait": "3",
+      "Id": "CFF4DA19-445E-412C-B993-CB11197AF9B1"
+    },
+    {
+      "Name": "Sloshing Machine",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sloshing_Machine.png",
+      "Category": 3,
+      "Trait": "1 4",
+      "Id": "E071EFE4-9A5E-4DE4-A32D-3EEF15A8CD66"
+    },
+    {
+      "Name": "Sloshing Machine Neo",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sloshing_Machine_Neo.png",
+      "Category": 3,
+      "Trait": "1 3",
+      "Id": "AE4AAEA6-B5A8-40CC-AE4F-9CD94F44EA24"
+    },
+    {
+      "Name": "Snipewriter 5B",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Snipewriter_5B.png",
+      "Category": 6,
+      "Trait": "3 4 6",
+      "Id": "7C9EC1A6-885D-4FE4-9B57-53C40654BF5B"
+    },
+    {
+      "Name": "Snipewriter 5H",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Snipewriter_5H.png",
+      "Category": 6,
+      "Trait": "0 3 4 6",
+      "Id": "25C1A3A8-57EC-4FE3-B827-34FCB2BEB1CA"
+    },
+    {
+      "Name": "Sorella Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sorella_Brella.png",
+      "Category": 1,
+      "Trait": "1 3 5",
+      "Id": "50E2E175-A88E-44BA-A51D-F5F5EF53D23F"
+    },
+    {
+      "Name": "Splash-o-matic",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splash-o-matic.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "F6C872F0-C10E-44CC-97ED-DDD7C669A3C2"
+    },
+    {
+      "Name": "Splat Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Brella.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "6C7AAB2B-2143-4E30-BD55-19D40955E1C7"
+    },
+    {
+      "Name": "Splat Charger",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Charger.png",
+      "Category": 2,
+      "Trait": "2 3",
+      "Id": "C3B09CFB-B8B6-44C2-82F0-49DD8A4EF061"
+    },
+    {
+      "Name": "Splat Roller",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splat_Roller.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "6D00789C-DFAE-48F0-8ECB-21A1A66957C9"
+    },
+    {
+      "Name": "Splatana Stamper",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Stamper.png",
+      "Category": 3,
+      "Trait": "3 4",
+      "Id": "87EA44B1-6B88-4B48-ABA2-C42AD8915BF3"
+    },
+    {
+      "Name": "Splatana Wiper",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Wiper.png",
+      "Category": 0,
+      "Trait": "4 5",
+      "Id": "F9285324-FC00-4BCD-B36D-6498FE8E9BB1"
+    },
+    {
+      "Name": "Splatana Wiper Deco",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatana_Wiper_Deco.png",
+      "Category": 1,
+      "Trait": "2 3 4 5",
+      "Id": "734E7885-288D-496A-942B-BAFBA8BCA930"
+    },
+    {
+      "Name": "Splatterscope",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splatterscope.png",
+      "Category": 5,
+      "Trait": "2 3 6",
+      "Id": "14A54335-F4C5-4165-A1AB-F9F7F3113605"
+    },
+    {
+      "Name": "Splattershot",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot.png",
+      "Category": 1,
+      "Trait": "2 4 5",
+      "Id": "0F940A0E-C3A6-436B-B36B-2E8957B3ACC7"
+    },
+    {
+      "Name": "Splattershot Jr.",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Jr..png",
+      "Category": 1,
+      "Trait": "2 4 5",
+      "Id": "AE16E703-8BB3-48A4-B43D-F411E8F9F2F8"
+    },
+    {
+      "Name": "Splattershot Nova",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Nova.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "59F11929-B96E-4C70-BBAA-5FC0A82A0AF9"
+    },
+    {
+      "Name": "Splattershot Pro",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Splattershot_Pro.png",
+      "Category": 2,
+      "Trait": "1 3",
+      "Id": "28A427FB-74FF-4CA3-8718-26BD0DEEF53B"
+    },
+    {
+      "Name": "Sploosh-o-matic",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Sploosh-o-matic.png",
+      "Category": 1,
+      "Trait": "4 5",
+      "Id": "C3003F90-5FBA-4290-9F76-1770217B1815"
+    },
+    {
+      "Name": "Squeezer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Squeezer.png",
+      "Category": 2,
+      "Trait": "1 3 4",
+      "Id": "55B26965-E28A-4CFB-8EA0-9D68C625E928"
+    },
+    {
+      "Name": "Tenta Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tenta_Brella.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "D78F3292-C119-4F68-807D-7506997DF1A1"
+    },
+    {
+      "Name": "Tenta Sorella Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tenta_Sorella_Brella.png",
+      "Category": 2,
+      "Trait": "1 3",
+      "Id": "200F909F-8400-4F77-BC56-9252B0E56587"
+    },
+    {
+      "Name": "Tentatek Splattershot",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tentatek_Splattershot.png",
+      "Category": 1,
+      "Trait": "2 4 5",
+      "Id": "C1DD5E8A-F94B-442E-BCF1-48C58F3D73E3"
+    },
+    {
+      "Name": "Tri-Slosher",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tri-Slosher.png",
+      "Category": 1,
+      "Trait": "1 4 5",
+      "Id": "0B5F2505-0FCB-4396-B0F0-B50A126D03BC"
+    },
+    {
+      "Name": "Tri-Stringer",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Tri-Stringer.png",
+      "Category": 4,
+      "Trait": "3 4 6",
+      "Id": "C99ED1FF-4A4F-4170-876D-EC013C53E932"
+    },
+    {
+      "Name": "Undercover Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Undercover_Brella.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "F55889AF-321E-41EE-A16A-399BE2485E6F"
+    },
+    {
+      "Name": "Undercover Sorella Brella",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Undercover_Sorella_Brella.png",
+      "Category": 1,
+      "Trait": "5",
+      "Id": "959F3D7F-C910-495E-A14E-80B947F7FF7D"
+    },
+    {
+      "Name": "Z+F Splat Charger",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Z+F_Splat_Charger.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "9D914B74-CE9C-4B35-BFA3-B928233F7ED9"
+    },
+    {
+      "Name": "Z+F Splatterscope",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Z+F_Splatterscope.png",
+      "Category": 5,
+      "Trait": "3 6",
+      "Id": "5DC35142-7E68-4E8E-9039-CBF3275BFCF6"
+    },
+    {
+      "Name": "Zink Mini Splatling",
+      "IconUrl": "https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/Images/Zink_Mini_Splatling.png",
+      "Category": 2,
+      "Trait": "3",
+      "Id": "8FC72F3F-9074-428E-99C2-663A7349BE8F"
+    }
+  ]
+}

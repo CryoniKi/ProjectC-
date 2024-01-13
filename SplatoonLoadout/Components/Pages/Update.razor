@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@code {
+    [Inject] private UpdateChecker UpdateChecker { get; set; } = default!;
+    [Inject] private WeaponService WeaponService { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync() {
+        await base.OnInitializedAsync();
+
+        var (newVersion, latestTag) = await UpdateChecker.CheckForUpdate();
+        if (newVersion) {
+            NavigationManager.NavigateTo($"RequireUpdate/{latestTag}");
+        }
+
+        await WeaponService.UpdateWhenRequired();
+        NavigationManager.NavigateTo("main");
+    }
+}

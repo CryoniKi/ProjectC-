@@ -1,0 +1,80 @@
+﻿@page "/main"
+
+<div style="display: grid; grid-template-columns: 20% calc(80% - 0.5rem);height:100vh; gap:0.5rem; padding:0.5rem;">
+    
+    <MudPaper Style="padding:0.5rem;">
+        <!-- Search bar -->
+        <MudStack Row=true>
+            <MudTextField Label="Search" @bind-Value=_search Immediate=true />
+            <MudIconButton Icon=@Icons.Material.Filled.DeleteSweep OnClick=@(() => _search = string.Empty) />
+        </MudStack>
+
+        <!-- Save Loadouts -->
+        <MudButton Variant=Variant.Filled StartIcon=@Icons.Material.Filled.Save Style="margin-top:0.5rem; width:100%;">Save Loadout</MudButton>
+    </MudPaper>
+    <div style="display:grid; grid-template-rows: auto auto; overflow:hidden; gap:0.5rem;">
+        <MudPaper Style="padding:1rem;">
+            <div style=@($"display:grid; grid-template-columns: repeat({_chips.Count}, 1fr); gap:2rem; width:50% margin-left:auto; margin-right:auto; margin-bottom:1rem; justify-content:space-between")>
+                @foreach (var value in _chips) {
+                    <MudFab OnClick="@(() => HighLightTag(value.Key))" Color=@(value.Key == _highlightTrait ? Color.Secondary : Color.Default) StartIcon=@(value.Value ? Icons.Material.Filled.Check : null) Label="@value.Key.ToString()" />
+                }
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(4, 7rem); gap:0.5rem; width:50%; margin-left:auto; margin-right:auto; justify-content:space-between">
+                @foreach (var (item, index) in _selected.Select((e, i) => (e, i))) {
+                    @if (item is null) {
+                        <MudPaper Style="width:100%; aspect-ratio:1"></MudPaper>
+                    }
+                    else {
+                        <MudPaper Style="width:7rem; margin-left:0.5rem; aspect-ratio:1; cursor: pointer;" @onclick=@(() => TrySetInactive(index))>
+                            <MudImage Style="width: 100%;" Src="@item.IconUrl"></MudImage>
+                        </MudPaper>
+                    }
+                }
+            </div>
+        </MudPaper>
+
+        <MudPaper Style="padding:1rem;overflow:scroll">
+            @foreach (var value in Enum.GetValues(typeof(Category)).Cast<Category>()) {
+                <MudPaper Class="mt-5 p-5">
+                    <div style="display: flex; gap:1rem; flex-wrap: wrap;">
+                        <MudPaper Style="width:7rem;aspect-ratio:1;">
+                            <MudStack Style="height:100%;" Justify="Justify.Center" AlignItems="AlignItems.Center">
+                                <MudText Align="Align.Center">@(NameResolver.GetName(value))</MudText>
+                            </MudStack>
+                        </MudPaper>
+
+                        @foreach (var item in weapons.Where(e => e.Category == value && e.Name.Contains(_search, StringComparison.InvariantCultureIgnoreCase))) {
+                            @if (item.Trait.Any(e => _unallowedTraits.Contains(e))) {
+                                <MudTooltip Text="@item.Name">
+                                    <MudPaper Style="position:relative;width:7rem;aspect-ratio:1;">
+                                        <MudImage Style="position:absolute;width: 100%;" Src="@(item.IconUrl)"></MudImage>
+                                        <MudImage Style="position:absolute;width: 100%;" Src="https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/unavailable.png"></MudImage>
+                                        @if (item.Trait.Any(e => e == _highlightTrait)) {
+                                            <MudImage Style="position:absolute;width: 20%; bottom:5px; right:5px;" Src="https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/checked.png"></MudImage>
+                                        }
+
+                                    </MudPaper>
+                                </MudTooltip>
+                            }
+                            else {
+                                <MudTooltip Text="@item.Name">
+                                    <MudPaper Style="position:relative; width:7rem; aspect-ratio:1; cursor: pointer;" @onclick=@(() => TrySetActive(item))>
+                                        <MudImage Style="position:absolute;width: 100%;" Src="@(item.IconUrl)"></MudImage>
+                                        @if (item.Trait.Any(e => e == _highlightTrait)) {
+                                            <MudImage Style="position:absolute;width: 20%; bottom:5px; right:5px;" Src="https://raw.githubusercontent.com/CryoniKi/ProjectC-/main/SplatoonLoadout/AppResources/checked.png"></MudImage>
+                                        }
+                                    </MudPaper>
+                                </MudTooltip>
+                            }
+                        }
+                    </div>
+                </MudPaper>
+            }
+        </MudPaper>
+    </div>
+</div>
+
+<!-- Watermark -->
+<MudPaper Style="position: fixed !important; right: 1rem; bottom: 1rem; padding:0.5rem;">
+    <MudText Typo="Typo.body1">Made By <a href="https://discord.com/users/530093822806458368">CryoniKi</a> and <a href="https://discord.com/users/337993725525622786">Async</a></MudText>
+</MudPaper>
